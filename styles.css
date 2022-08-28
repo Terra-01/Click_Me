@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Emilys+Candy&family=Oswald&family=Source+Sans+Pro&display=swap');
+
+body {
+  background-image: url('bg.jpg');
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.button {
+  border: none;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  background: hsl(223, 88%, 68%);
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.top {
+  display: block;
+  padding: 15px 45px;
+  border-radius: 15px;
+  font-size: 5rem;
+  background: hsl(218deg 980% 77%);
+  color: black;
+  transform: translateY(-8px);
+}
+
+.button:active .top {
+  transform: translateY(-2px);
+}
